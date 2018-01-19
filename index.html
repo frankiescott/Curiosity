@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Curiosity</title>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="slick-1.8.0/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick-1.8.0/slick/slick-theme.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container" id="jumbo"></div>
+    <div class="jumbotron" align="center">
+        <h1>Welcome to Mars.</h1>
+        <h2>Curiosity's Latest Photos</h2>
+    </div>
+
+    <div class="container" id="slidercontainer">
+        <div id="date"></div>
+        <div id="cameralist">Images taken from: </div>
+        <hr>
+        <div class="slide" id="imgDiv"></div>
+    </div>
+
+    <div id="info">
+        <img src="curiosity.jpg" id="selfie">
+        <div id="blackbox">
+            <p>Curiosity is a rover designed to explore Gale Crater on Mars as part of NASA's Mars Science Laboratory mission.</p>
+            <h1>Mission Objectives</h1>
+            <p>Determine if Mars can, or has ever supported life.</p>
+            <p>Study the climate and geology of Mars.</p>
+            <hr>
+            <div class="row">
+                <div class="col-md-4">
+                    <i class="fa fa-rocket fa-5x" aria-hidden="true"></i>
+                    <p>Curiosity launched November 26, 2011 and landed August 6, 2012.
+                        <p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-compass fa-5x" aria-hidden="true"></i>
+                    <p>Since landing, the rover has navigated 11.19 miles.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-camera fa-5x" aria-hidden="true"></i>
+                    <p>Over 450,000 photos have been taken among its 17 different cameras.
+                        <p>
+                </div>
+            </div>
+            <hr>
+            <a href="https://www.nasa.gov/mission_pages/msl/index.html">Learn more.</a>
+            <div id="footer" align="center">
+                This web app was created by <a href="https://github.com/frankiescott">Frankie Scott</a> using a public <a href="http://www.nasa.gov">NASA</a> API:
+                <a href="https://github.com/chrisccerami/mars-photo-api">Mars Photo API</a>.
+            </div>
+        </div>
+</body>
+
+<div class="se-pre-con"></div>
+
+<script type="text/javascript" src="code.js"></script>
+<script type="text/javascript" src="slick-1.8.0/slick/slick.min.js"></script>
+
+</html>
