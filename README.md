@@ -1,2 +1,2 @@
 # Curious About Curiosity
-Take a peek at what Curiosity is up to today! This web app queries NASA's public API to retrieve any photos that Curiosity has taken today.
+Curiosity the Mars rover is still active and takes new photos daily. This website queries a public NASA API to retrive the latest photos from Curiosity!
