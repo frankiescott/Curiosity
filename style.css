@@ -16,7 +16,7 @@ img {
     background-color: black;
     text-shadow: 2px 2px 4px black;
     letter-spacing: 3px;
-    background-image: url("/jbg.jpg")
+    background-image: url("jbg.jpg")
 }
 
 #date {
@@ -38,7 +38,7 @@ body {
 
 #jumbo {
     height: 1000px;
-    background-image: url("/mars.jpg");
+    background-image: url("mars.jpg");
     background-repeat: no-repeat;
     background-size: 200%;
     background-position: center;
@@ -90,7 +90,7 @@ p {
     padding-left: 200px;
     padding-right: 200px;
     background-color: #E9E9E9;
-    background-image: url("/infobg.jpg");
+    background-image: url("infobg.jpg");
     background-size: cover;
     text-shadow: 2px 2px #000000;
 }
